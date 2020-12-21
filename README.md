@@ -1,5 +1,5 @@
 # Ticket Bot
-### Using Quick.db & Discord.js
+### Using Quick.db & Discord.js (V11)
 
 #### DISCLAIMER: This does have errors, I will not be answering any issues.
 
