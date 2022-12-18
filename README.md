@@ -1,3 +1,5 @@
+# DEPRICATED
+
 # Ticket Bot
 ### Using Quick.db & Discord.js (V11)
 
