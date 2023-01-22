@@ -29,8 +29,13 @@ fs.readdir("./commands/", (err, files) => {
 })
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
+  try {
   bot.user.setActivity(`In Development`);
   bot.user.setStatus('online');
+  } catch (error) {
+    console.warn("There was an error!");
+    console.error(error);
+  };
 
   bot.on("message", async message => {
     if(message.author.bot) return;
